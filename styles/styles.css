@@ -237,6 +237,26 @@ width: 800px;
 left: 45%;
 
 }
+.schedule{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+height: 470px;
+margin: 120px auto;
+margin-bottom: 150px;
+}
+.time{
+    text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+padding-top: 120px;
+
+}
+#date{
+    color: #F00;
+}
 #newsletter{
     margin: 120px 650px;
     align-items: center;
