@@ -257,6 +257,28 @@ padding-top: 120px;
 #date{
     color: #F00;
 }
+/* offer styles */
+#offer{
+    display: flex;
+    margin: 170px auto;
+    gap: 24px;
+}
+
+.title2024{
+    olor: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+
+}
+
+
+
+
+
+
+
+/* newslettere styles */
 #newsletter{
     margin: 120px 650px;
     align-items: center;
