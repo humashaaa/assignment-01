@@ -9,16 +9,15 @@
 
 /* header related styles  */
 .banner {
-    position: relative;
-}
-
-.banner img {
-    max-width: 100%;
-    height: auto;
-    align-items: center;
-    margin: 5px 500px;
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    width: 1320px;
+    height: 600px;
+    margin: 10px 300px 30px 300px;
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
 
 
 }
@@ -26,15 +25,15 @@
 .banner-card {
     position: absolute;
     top: 25%;
-    color: #c40f0f;
+    color: #e70cc3;
     text-align: center;
-    right: 40%;
+    right: 35%;
 
 
 }
 
 .banner-card h3 {
-    color: #FFF;
+    color: whitesmoke;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
@@ -43,7 +42,7 @@
 }
 
 .banner-card h1 {
-    color: #f72f2f;
+    color: #f7196e;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
@@ -98,49 +97,18 @@
 }
 
 /* section 02 styles */
-
-
-.inside {
-    position: relative;
-}
-
-.imgx {
-    position: relative;
-
+.banner2 {
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
     max-width: 100%;
-    height: auto;
-    align-items: center;
-    margin-top: 0;
-    border-radius: 16px;
-    left: 20%;
-    top: 0;
-
-}
-
-.imgy {
-    width: 319.83px;
-    height: 464.662px;
-    flex-direction: column;
-    display: flex;
-    left: 30%;
-
+    margin-left: 300px;
+    padding: 120px;
 }
 
 .text {
-    position: absolute;
-    top: 25%;
-
+    top: 20%;
     display: flex;
-
-    flex-direction: column;
-    justify-content: space-around;
-
-}
-
-.paragraph {
-    left: 26%;
-    margin-left: 550px;
-
+    gap: 20px;
 }
 
 .text h1 {
@@ -177,9 +145,6 @@
     background-color: #070211;
 }
 
-/* footer{
-    background-color:#070211 ;
-} */
 .first {
     display: flex;
 }
@@ -273,31 +238,35 @@
 /* offer styles */
 #offer {
     display: flex;
-   margin: 120px 300px 120px 300px;
+    margin: 120px 300px 120px 300px;
     gap: 60px;
 }
-.offer-title{
+
+.offer-title {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     text-align: center;
-    color:#F00;
+    color: #F00;
 
 }
-.offer-header{
+
+.offer-header {
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
 
 }
-.offer-description{
+
+.offer-description {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-width: 393px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
 }
+
 .title2024 {
     color: #F00;
     font-family: Inter;
@@ -311,7 +280,8 @@ width: 393px;
     border: 15px solid #F00;
     padding: 15px;
 }
-.descrip{
+
+.descrip {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -352,7 +322,7 @@ width: 393px;
     margin-top: 30px;
     margin-bottom: 50px;
     width: 800px;
-   margin:30px 540px 50px 540px ;
+    margin: 30px 540px 50px 540px;
 
 }
 
@@ -459,7 +429,6 @@ footer {
     font-size: 18px;
     font-weight: 500;
     line-height: 20px;
-    /* margin: 120px auto; */
 
 }
 
@@ -478,7 +447,6 @@ footer {
 }
 
 #footp {
-    /* margin: 90px 140px; */
     max-width: 380px;
     max-height: 75px;
     margin-top: 100px;
@@ -486,7 +454,6 @@ footer {
 
 .contact {
     margin: 90px 140px;
-
 }
 
 hr {
